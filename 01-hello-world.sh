@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello, World!"
+echo "Hello, Welsome to the shell scripting"
