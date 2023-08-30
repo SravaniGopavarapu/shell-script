@@ -1,6 +1,10 @@
 #!/bin/bash
+# Initialize two numeric variables
+a=10
+b=20
 
-num1=10
-num2=20
+# Add the two values and store the result in a third variable
+sum=$(expr $a + $b)
 
-echo  expr $num1+$num2
+# Print the result
+echo "The sum of $a and $b is $sum."
