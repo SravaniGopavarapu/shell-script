@@ -2,7 +2,7 @@
 
 echo "please enter your user name"
 
-read -s USER
+read -r USER
 echo "Please enter your password"
-read -s PASSWORD
+read -r PASSWORD
 echo "The entered values : $USER and $PASSWORD"
