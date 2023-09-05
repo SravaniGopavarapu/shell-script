@@ -1,7 +1,7 @@
 #!/bin/bash
 # Initialize two numeric variables
-a=10
-b=20
+a=$1
+b=$2
 
 # Add the two values and store the result in a third variable
 sum=$(($a + $b))
